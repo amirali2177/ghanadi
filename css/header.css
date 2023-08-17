@@ -1,0 +1,141 @@
+header{
+    width: 100%;
+    height: 120px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 20px grey;
+}
+header section:nth-of-type(1){
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction:row-reverse;
+    align-items: center;
+    padding-top: 40px;
+    justify-content: center;
+    gap: 0 100px;
+}
+header section:nth-of-type(1) div{
+    width: 150px;
+    display: flex;
+    flex-direction: row-reverse;
+    cursor: pointer;
+}
+header section:nth-of-type(1) .one{
+    width: 50px;
+    padding-left: 400px;
+}
+header section:nth-of-type(1) .one h2{
+    color: rgb(84, 84, 0);
+    font-size: 30px;
+    padding-top: 8px;
+}
+header section:nth-of-type(1) .one i{
+    font-size: 35px;
+    color: rgb(84, 84, 0);
+    padding-top: 10px;
+    padding-right: 15px;
+}
+header section:nth-of-type(1) .two{
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    gap: 10px 10px;
+    padding-left: 400px;
+    width: 50px;
+}
+header section:nth-of-type(1) .two .two-one{
+    
+    display: flex;
+    gap: 10px 10px;
+}
+header section:nth-of-type(1) .two .two-one i{
+    font-size: 25px;
+}
+header section:nth-of-type(1) .two .two-one h3{
+    font-size: 20px;
+    font-weight: lighter;
+    padding-top: 5px;
+}
+header section:nth-of-type(1) .two .two-two{
+    display: flex;
+    gap: 10px 10px;
+}
+header section:nth-of-type(1) .two .two-two i{
+    font-size: 22px;
+    color: greenyellow;
+}
+header section:nth-of-type(1) .two .two-two h4{
+    color: rgb(150, 150, 150);
+    font-size: 18px;
+}
+header section:nth-of-type(1) .three{
+    font-size: 30px;
+    padding-right: 250px;
+    color: greenyellow;
+} 
+header section:nth-of-type(1) .four{
+    border: 1px solid gray;
+    display: flex;
+    border-radius: 10px;
+    gap: 0 10px;
+    padding: 5px 20px;
+} 
+header section:nth-of-type(1) .four i{
+    font-size: 25px;
+    padding-top: 1px;
+    color: greenyellow;
+}
+header section:nth-of-type(1) .four h2{
+    font-size: 15px;
+    padding-top: 5px;
+    font-weight: lighter;
+}
+header section:nth-of-type(2){
+    display: flex;
+    flex-direction:row-reverse;
+    width: 100%;
+    height: 50px;
+}
+header section:nth-of-type(2) .first{
+    width: 70%;
+    height: inherit;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction:row-reverse;
+    padding-top: 40px;
+    padding-right: 128px;
+    align-items: flex-start;
+    float: right;
+    gap: 0 0px;
+}
+header section:nth-of-type(2) .first div{
+    width: 120px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    color: rgb(150, 150, 150);
+    gap: 0 5px;
+    cursor: pointer;
+}
+header section:nth-of-type(2) .secend{
+    padding-top: 40px;   
+}
+header section:nth-of-type(2) .secend div{
+    background-color: rgb(45, 202, 207);
+    display: flex;
+    width: 250px;
+    color: white;
+    flex-direction: row;
+    font-size: 13px;
+    line-height: 30px;
+    justify-content: center;
+    cursor: pointer;
+}
+header section:nth-of-type(2) .secend div i{
+    padding-top: 8px;
+}
+header section:nth-of-type(2) .secend div h3{
+    padding-right: 4px;
+}
