@@ -1,0 +1,116 @@
+footer{
+    width: 100%;
+    height: 40vh;
+}
+footer section:nth-of-type(1){
+    width: 100%;
+    height: 20vh;
+    background-color: #f4f4f4;
+}
+footer section:nth-of-type(1) section{
+    width: 90%;
+    height: inherit;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 200px;
+}
+footer section:nth-of-type(1) div{
+    display: flex;
+    flex-direction: column;
+    border-right: 1px dotted #b8dbd2;
+    text-align: right;
+    margin: 10px 13px;
+    padding: 0 13px 0 0;
+    gap: 5px 0;
+}
+footer section:nth-of-type(1) div h2{
+    color: aquamarine;
+}
+footer section:nth-of-type(1) div a{
+    color: black;
+}
+footer section:nth-of-type(2){
+    width: 30vh;
+    width: 68%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 20px;
+}
+footer section:nth-of-type(2) div:nth-of-type(1){
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    align-items: flex-end;
+    padding-right: 20px;
+    gap: 20px 0;
+}
+footer section:nth-of-type(2) div:nth-of-type(1) div:nth-of-type(1){
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 0 17px;
+}
+footer section:nth-of-type(2) div:nth-of-type(1) div:nth-of-type(1) i{
+    font-size: 35px;
+    color: rgb(84, 84, 0);
+}
+footer section:nth-of-type(2) div:nth-of-type(1) div:nth-of-type(1) h2{
+    color: rgb(84, 84, 0);
+    font-size: 30px;
+}
+footer section:nth-of-type(2) div:nth-of-type(1) div:nth-of-type(2){
+    line-height: 23px;
+    width: 68%;
+}
+footer section:nth-of-type(2) div:nth-of-type(2){
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    gap: 10px 0;
+}
+footer section:nth-of-type(2) div:nth-of-type(2) h2{
+    font-size: 20px;
+}
+footer section:nth-of-type(2) div:nth-of-type(2) a{
+    color: rgb(102, 102, 102);
+    font-size: 16px;
+}
+footer section:nth-of-type(2) div:nth-of-type(3){
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    gap: 10px 0;
+}
+footer section:nth-of-type(2) div:nth-of-type(3) h2{
+    font-size: 20px;
+}
+footer section:nth-of-type(2) div:nth-of-type(3) a{
+    color: rgb(102, 102, 102);
+    font-size: 16px;
+}
+footer section:nth-of-type(2) div:nth-of-type(4){
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    gap: 10px 0;
+}
+footer section:nth-of-type(2) div:nth-of-type(4) h2{
+    font-size: 20px;
+}
+footer section:nth-of-type(2) div:nth-of-type(4) a{
+    color: rgb(102, 102, 102);
+    font-size: 16px;
+}
+footer section:nth-of-type(3){
+    background: #ddd;
+    height: 1px;
+    width: 65%;
+    margin: 10px auto;
+}
